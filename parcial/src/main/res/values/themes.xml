@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Caderno" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/terracota</item>
+        <item name="colorOnPrimary">@color/branco</item>
+        <item name="colorPrimaryContainer">@color/creme_escuro</item>
+        <item name="colorOnPrimaryContainer">@color/terracota_escuro</item>
+        <item name="colorSecondary">@color/manjericao</item>
+        <item name="colorOnSecondary">@color/branco</item>
+        <item name="android:colorBackground">@color/creme</item>
+        <item name="colorSurface">@color/creme</item>
+        <item name="colorOnSurface">@color/texto</item>
+        <item name="colorOnSurfaceVariant">@color/texto_secundario</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

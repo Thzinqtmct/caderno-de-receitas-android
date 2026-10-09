@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta "cozinha": terracota + creme. Pares texto/fundo com contraste AA (>= 4,5:1). -->
+    <color name="terracota">#B23A12</color>
+    <color name="terracota_escuro">#7C2709</color>
+    <color name="creme">#FFF8F1</color>
+    <color name="creme_escuro">#F6E7D7</color>
+    <color name="texto">#2B1A12</color>
+    <color name="texto_secundario">#5C4A3F</color>
+    <color name="manjericao">#2F6B3A</color>
+    <color name="branco">#FFFFFF</color>
+
+    <color name="ic_launcher_background">#B23A12</color>
+</resources>

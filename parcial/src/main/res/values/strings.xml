@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Caderno (Views)</string>
+    <string name="titulo_lista">Caderno de Receitas</string>
+    <string name="subtitulo_lista">Receitas brasileiras de família</string>
+    <string name="so_favoritas">Mostrar só as favoritas</string>
+    <string name="lista_vazia">Nenhuma favorita ainda.\nToque no coração de uma receita para guardar aqui.</string>
+
+    <plurals name="resumo_lista">
+        <item quantity="one">%1$d receita · %2$d favorita</item>
+        <item quantity="other">%1$d receitas · %2$d favoritas</item>
+    </plurals>
+
+    <string name="tempo_minutos">%d min</string>
+    <string name="tempo_horas">%1$d h %2$02d min</string>
+    <string name="tempo_desconhecido">Tempo não informado</string>
+    <string name="detalhes_item">%1$s · %2$s · %3$s</string>
+    <string name="dificuldade">Dificuldade: %s</string>
+
+    <string name="favoritar">Favoritar</string>
+    <string name="desfavoritar">Tirar das favoritas</string>
+    <string name="cd_favoritar">Adicionar %s às favoritas</string>
+    <string name="cd_desfavoritar">Remover %s das favoritas</string>
+    <string name="cd_voltar">Voltar</string>
+    <string name="cd_tempo">Tempo de preparo</string>
+
+    <string name="porcoes">Rendimento</string>
+    <string name="cd_menos">Diminuir rendimento</string>
+    <string name="cd_mais">Aumentar rendimento</string>
+    <string name="ingredientes">Ingredientes</string>
+    <plurals name="progresso_ingredientes">
+        <item quantity="one">%1$d de %2$d ingrediente separado</item>
+        <item quantity="other">%1$d de %2$d ingredientes separados</item>
+    </plurals>
+    <string name="tudo_separado">Tudo separado! Hora de cozinhar 👩‍🍳</string>
+    <string name="modo_preparo">Modo de preparo</string>
+    <string name="passo">Passo %d</string>
+    <string name="passo_feito">Passo %d (feito)</string>
+    <string name="toque_para_marcar">Toque em um passo para marcá-lo como feito.</string>
+    <string name="dica">💡 Dica: %s</string>
+    <string name="receita_nao_encontrada">Receita não encontrada.</string>
+</resources>

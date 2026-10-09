@@ -1,0 +1,5 @@
+# Finais de linha consistentes em qualquer sistema
+* text=auto eol=lf
+*.bat text eol=crlf
+*.jar binary
+*.png binary

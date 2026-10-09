@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Backup na nuvem/transferência: leva o caderno, as preferências e as fotos; o cache do catálogo não. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="database" path="caderno.db" />
+        <include domain="file" path="fotos/" />
+        <include domain="file" path="datastore/" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="database" path="caderno.db" />
+        <include domain="file" path="fotos/" />
+        <include domain="file" path="datastore/" />
+    </device-transfer>
+</data-extraction-rules>

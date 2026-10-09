@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Caderno" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#FFB59C</item>
+        <item name="colorOnPrimary">#5C1A04</item>
+        <item name="colorPrimaryContainer">#4A2A1C</item>
+        <item name="colorOnPrimaryContainer">#FFDBCF</item>
+        <item name="colorSecondary">#9BD5A2</item>
+        <item name="colorOnSecondary">#003914</item>
+        <item name="android:colorBackground">#1E1612</item>
+        <item name="colorSurface">#1E1612</item>
+        <item name="colorOnSurface">#F2DFD6</item>
+        <item name="colorOnSurfaceVariant">#D8C2B8</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

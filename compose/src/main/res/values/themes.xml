@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema só da janela (antes do Compose desenhar); as cores do app ficam em ui/tema/Tema.kt. -->
+    <style name="Theme.Caderno" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/creme</item>
+    </style>
+
+</resources>

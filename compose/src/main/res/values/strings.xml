@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Caderno de Receitas</string>
+
+    <!-- Geral -->
+    <string name="voltar">Voltar</string>
+    <string name="carregando">Carregando…</string>
+    <string name="tentar_de_novo">Tentar de novo</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="remover">Remover</string>
+    <string name="opcional">Opcional</string>
+    <string name="aviso_desatualizado">Sem conexão: mostrando a cópia salva no aparelho.</string>
+    <string name="nota_x_de_5">Nota %1$d de 5</string>
+    <string name="situacao_quero_fazer">Quero fazer</string>
+    <string name="situacao_ja_fiz">Já fiz</string>
+    <string name="abrir_receita">abrir receita</string>
+
+    <!-- Falhas -->
+    <string name="falha_sem_conexao_titulo">Sem internet</string>
+    <string name="falha_sem_conexao">Não conseguimos falar com o servidor de receitas. Confira a conexão e tente de novo.</string>
+    <string name="falha_servidor_titulo">Algo deu errado</string>
+    <string name="falha_servidor">O servidor de receitas não respondeu como esperado. Tente de novo daqui a pouco.</string>
+    <string name="falha_nao_encontrada_titulo">Receita não encontrada</string>
+    <string name="falha_nao_encontrada">Essa receita não existe mais no catálogo.</string>
+
+    <!-- Explorar -->
+    <string name="cd_abrir_caderno">Abrir meu caderno. Receitas salvas: %1$d</string>
+    <string name="buscar_rotulo">Buscar receita pelo nome</string>
+    <string name="buscar_exemplo">Ex.: cake, chicken, pasta</string>
+    <string name="cd_limpar_busca">Limpar busca</string>
+    <string name="carregando_categorias">Carregando categorias…</string>
+    <string name="categorias_erro">Categorias indisponíveis. Tocar para tentar de novo</string>
+    <string name="carregando_receitas">Buscando receitas…</string>
+    <string name="nada_encontrado">Nada por aqui</string>
+    <string name="nada_encontrado_nome">Nenhuma receita com “%1$s”. As receitas estão em inglês: tente “cake”, “soup” ou “rice”.</string>
+    <string name="nada_encontrado_categoria">Essa categoria está sem receitas no momento.</string>
+    <plurals name="receitas_encontradas">
+        <item quantity="one">%1$d receita</item>
+        <item quantity="other">%1$d receitas</item>
+    </plurals>
+    <string name="escolha_uma_receita">Escolha uma receita na lista para ver os detalhes aqui.</string>
+
+    <!-- Receita -->
+    <string name="receita">Receita</string>
+    <string name="carregando_receita">Carregando receita…</string>
+    <string name="cd_compartilhar">Compartilhar receita</string>
+    <string name="cd_foto_receita">Foto de %1$s</string>
+    <string name="cd_foto_prato">Foto do prato que você fez</string>
+    <string name="ver_video">Ver vídeo da receita</string>
+    <plurals name="ingredientes">
+        <item quantity="one">%1$d ingrediente</item>
+        <item quantity="other">%1$d ingredientes</item>
+    </plurals>
+    <string name="modo_preparo">Modo de preparo</string>
+    <string name="sem_modo_preparo">Esta receita não tem modo de preparo cadastrado.</string>
+    <string name="fora_do_caderno">Essa receita ainda não está no seu caderno.</string>
+    <string name="no_seu_caderno">No seu caderno</string>
+    <plurals name="vezes_feita">
+        <item quantity="one">Feita %1$d vez</item>
+        <item quantity="other">Feita %1$d vezes</item>
+    </plurals>
+    <string name="registrar_no_caderno">Registrar no caderno</string>
+    <string name="editar_registro">Editar registro</string>
+    <string name="compartilhar_ingredientes">Ingredientes:</string>
+    <string name="compartilhar_link">Abrir no Caderno de Receitas: caderno://receita/%1$s</string>
+
+    <!-- Formulário -->
+    <string name="titulo_registro">Registrar no caderno</string>
+    <string name="cd_fechar_formulario">Fechar sem salvar</string>
+    <string name="pergunta_situacao">Você já fez essa receita?</string>
+    <string name="rotulo_vezes">Quantas vezes você já fez?</string>
+    <string name="ajuda_vezes">De 1 a 99</string>
+    <string name="rotulo_nota">Sua nota</string>
+    <string name="rotulo_observacao">Observações</string>
+    <string name="exemplo_observacao">Ex.: usei menos açúcar e ficou ótimo</string>
+    <string name="rotulo_foto">Foto do seu prato (opcional)</string>
+    <string name="escolher_foto">Escolher foto</string>
+    <string name="trocar_foto">Trocar foto</string>
+    <string name="remover_foto">Remover foto</string>
+    <string name="salvar">Salvar no caderno</string>
+    <string name="salvando">Salvando…</string>
+    <string name="erro_ao_salvar">Não foi possível salvar. Tente de novo.</string>
+    <string name="remover_do_caderno">Remover do caderno</string>
+    <string name="remover_titulo">Remover do caderno?</string>
+    <string name="remover_mensagem">O registro e a foto do prato serão apagados. A receita continua no catálogo.</string>
+    <plurals name="resumo_erros">
+        <item quantity="one">Corrija %1$d campo destacado para salvar.</item>
+        <item quantity="other">Corrija os %1$d campos destacados para salvar.</item>
+    </plurals>
+    <string name="erro_vezes_obrigatorio">Diga quantas vezes você já fez.</string>
+    <string name="erro_vezes_invalido">Use um número de 1 a 99.</string>
+    <string name="erro_nota_obrigatoria">Dê uma nota de 1 a 5.</string>
+    <string name="erro_observacao_longa">Use no máximo 300 caracteres.</string>
+
+    <!-- Caderno -->
+    <string name="meu_caderno">Meu caderno</string>
+    <string name="caderno_vazio_titulo">Seu caderno está vazio</string>
+    <string name="caderno_vazio">Abra uma receita e toque em “Registrar no caderno” para guardar o que você quer fazer ou já fez.</string>
+    <string name="explorar_receitas">Explorar receitas</string>
+    <string name="caderno_erro_titulo">Não foi possível abrir o caderno</string>
+    <string name="caderno_erro">Feche e abra o app de novo.</string>
+    <string name="filtro_todas">Todas (%1$d)</string>
+    <string name="filtro_quero_fazer">Quero fazer (%1$d)</string>
+    <string name="filtro_ja_fiz">Já fiz (%1$d)</string>
+    <string name="filtro_vazio">Nenhuma receita com esse filtro.</string>
+    <plurals name="resumo_feitas">
+        <item quantity="one">Você já fez %1$d receita</item>
+        <item quantity="other">Você já fez %1$d receitas</item>
+    </plurals>
+    <string name="nenhuma_feita">Nenhuma receita feita ainda</string>
+    <string name="media_notas">média ★ %1$s</string>
+</resources>

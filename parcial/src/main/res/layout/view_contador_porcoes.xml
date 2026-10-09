@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Componente reutilizável "contador": [-] 20 unidades [+].
+  <merge> evita um ViewGroup a mais: os filhos entram direto no ContadorPorcoesView (um LinearLayout).
+-->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:orientation="horizontal"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <ImageButton
+        android:id="@+id/menos"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/cd_menos"
+        android:src="@drawable/ic_menos" />
+
+    <TextView
+        android:id="@+id/valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:accessibilityLiveRegion="polite"
+        android:minWidth="40dp"
+        android:gravity="center"
+        android:textAppearance="?attr/textAppearanceTitleLarge"
+        tools:text="20" />
+
+    <ImageButton
+        android:id="@+id/mais"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/cd_mais"
+        android:src="@drawable/ic_mais" />
+
+    <TextView
+        android:id="@+id/unidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="4dp"
+        android:importantForAccessibility="no"
+        android:textAppearance="?attr/textAppearanceBodyLarge"
+        tools:text="unidades" />
+</merge>
